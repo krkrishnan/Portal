@@ -87,4 +87,85 @@ Changes not staged for commit:
 no changes added to commit
 
 radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git commit -m 'Changed commit'
+[master 4581075] Changed commit
+ 2 files changed, 91 insertions(+), 1 deletion(-)
+ create mode 100644 Note.txt
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git push origin master
+Username for 'https://github.com': krkrishnan
+Password for 'https://krkrishnan@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/krkrishnan/Portal.git/'
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git push origin master
+Username for 'https://github.com': krkrishnan
+Password for 'https://krkrishnan@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/krkrishnan/Portal.git/'
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git push origin master
+Username for 'https://github.com': krkrishnan
+Password for 'https://krkrishnan@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/krkrishnan/Portal.git/'
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git push origin master
+Username for 'https://github.com': krkrishnan
+Password for 'https://krkrishnan@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/krkrishnan/Portal.git/'
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git push origin master
+Username for 'https://github.com': krkrishnan
+Password for 'https://krkrishnan@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/krkrishnan/Portal.git/'
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git push origin master
+Username for 'https://github.com': krkrishnan
+Password for 'https://krkrishnan@github.com':
+To https://github.com/krkrishnan/Portal.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/krkrishnan/Portal.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git pull origin master
+warning: no common commits
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (6/6), done.
+From https://github.com/krkrishnan/Portal
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+Merge made by the 'recursive' strategy.
+ README.md | 6 ++++++
+ 1 file changed, 6 insertions(+)
+ create mode 100644 README.md
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git push origin master
+Username for 'https://github.com': krkrishnan
+Password for 'https://krkrishnan@github.com':
+Counting objects: 10, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 1.36 KiB | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/krkrishnan/Portal.git
+   5be3641..22e3d48  master -> master
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
 $
