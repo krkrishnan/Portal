@@ -1,0 +1,90 @@
+Welcome to Git (version 1.9.5-preview20141217)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ git config --global user.name "krkrishnan"
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ git config --global user.email "krkrishnan80@yahoo.com"
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ git remote add origin https://github.com/krkrishnan/Portal.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ git remote add origin https://github.com/krkrishnan/Portal.gi
+fatal: Not a git repository (or any of the parent directories): .git
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ git remote add origin https://github.com/krkrishnan/Portal
+fatal: Not a git repository (or any of the parent directories): .git
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ git remote add origin https://github.com/krkrishnan/Portal.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ mkdir C:\GitRepository\Portal
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ mkdir C:\GitRepository\Portal
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ mkdir C:/GitRepository/Portal
+
+radhakrishnan.k@EGLUKKCDT022 ~
+$ cd C:/GitRepository
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository
+$ cd C:/GitRepository/Portal
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal
+$ git init
+Initialized empty Git repository in c:/GitRepository/Portal/.git/
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ touch "C:\GitRepository\ReadMe.txt"
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ touch C:/GitRepository/ReadMe.txt
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git add C:/GitRepository/ReadMe.txt
+fatal: C:/GitRepository/ReadMe.txt: 'C:/GitRepository/ReadMe.txt' is outside rep
+ository
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git add C:/GitRepository/ReadMe.txt
+fatal: C:/GitRepository/ReadMe.txt: 'C:/GitRepository/ReadMe.txt' is outside rep
+ository
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git add C:/GitRepository/Portal/ReadMe.txt
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git commit -m 'first commit'
+[master (root-commit) 219e4d7] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ReadMe.txt
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git remote add origin https://github.com/krkrishnan/Portal.git
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git commit
+On branch master
+nothing to commit, working directory clean
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$ git commit
+On branch master
+Changes not staged for commit:
+        modified:   ReadMe.txt
+
+no changes added to commit
+
+radhakrishnan.k@EGLUKKCDT022 /c/GitRepository/Portal (master)
+$
